@@ -1,0 +1,14 @@
+.user {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 8px;
+  padding: 8px;
+}
+
+.user-image {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
