@@ -49,5 +49,5 @@ For each user, put their email and their picture into the DOM after their userna
 
 ## Stretch Goals
 1. Add an `<input>` tag to the page that lets us specify how many results we'd like to see. When the button is clicked, get the value by `querySelector`ing for the input tag, then getting its `.value`. Change the `results=5` parameter in our request URL to have the value from the input tag.
-1. We can put new DOM elements inside existing ones, but so far we're putting them all in on the same level, with no nesting. Use multiple iterations of 3-step DOM addition process to create a properly nested DOM. This allows us to visually separate our user divs using styling!
+1. We can put new DOM elements inside existing ones, but so far we're putting them all in on the same level, with no nesting. Use multiple iterations of 3-step DOM addition process to create a properly nested DOM. This allows us to visually separate our user divs using styling, which you should do!
 1. Extract all of our user creation code into a function. Then, call this function in our `.then` handler. Modify our site so that it displays the users on page load, and every click of the button shows us a new set of 5 random users.
