@@ -2,8 +2,6 @@ document.querySelector('#show-users').addEventListener('click', () => {
   fetch("https://randomuser.me/api?results=5").then((response) => {
     response.json().then((json) => {
       for (user of json.results) {
-        // const userDiv = document.createElement('div')
-        // userDiv.classList.add('user')
         
         const userName = document.createElement('h4')
         userName.innerText = user.name.first
@@ -20,7 +18,6 @@ document.querySelector('#show-users').addEventListener('click', () => {
         userImg.classList.add('user-image')
         document.querySelector('#users').append(userImg)
   
-        // document.querySelector('#users').append(userDiv)
       }
     })
   })
